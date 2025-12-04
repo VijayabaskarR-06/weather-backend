@@ -1,6 +1,7 @@
 from django.db import models
 
 
+
 class WeatherReport(models.Model):
     CONDITION_CHOICES = [
         ('rain', 'Rain'),
@@ -25,3 +26,9 @@ class WeatherReport(models.Model):
 
     def __str__(self) -> str:
         return f"{self.city} - {self.condition} - {self.created_at}"
+    
+
+
+
+    "making the changes"
+    "additional changes"
