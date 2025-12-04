@@ -1,6 +1,10 @@
-from rest_framework import serializers
+from rest_framework import serializers  
+
+# Importing the WeatherReport model
 
 from .models import WeatherReport
+
+# Serializer for WeatherReport model
 
 
 class WeatherReportSerializer(serializers.ModelSerializer):
@@ -10,4 +14,4 @@ class WeatherReportSerializer(serializers.ModelSerializer):
 
 
 
-
+"class WeatherReportCreateSerializer(serializers.ModelSerializer):"
